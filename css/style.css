@@ -2,10 +2,17 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: rgba(62, 109, 78, 0.849);
-
+body {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #102eff, #d2379b);
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
 }
+
 .background{
     background-image: url(../poze/background.jpg);
     background-position: center;
@@ -21,11 +28,9 @@ body{
 
 .info{
     text-align: center;
-    padding: 170px;
-    padding-top: 67.5px;
+    padding: 68px 170px 170px;
     color: azure;
     font-size: 12px;
-    text-shadow: 2px 2px 5px rgb(0, 26, 255);
 }
 
 a {
@@ -49,4 +54,97 @@ a:active{
 .titlu{
     text-shadow: 2px 2px 5px rgb(0, 0, 0) ;
     color: antiquewhite;
+}
+
+body, html
+{
+    padding: 0;
+    margin: 0px;
+    font-family: verdana,sans-serif;
+}
+main
+{
+    width: 100%;
+    display: inline-block;
+}
+.navbar
+{
+    width: 100%;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*border-bottom: 2px solid linear-gradient(to right, #B06AB3, #4568DC);*/
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
+    margin: 0;
+
+}
+.navbar > ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar > ul li
+{
+    display: inline-block;
+}
+.navbar > ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    position: relative;
+}
+.navbar > ul li a::before {
+    background: #fff none repeat scroll 0 0;
+    bottom: -2px;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 0%;
+    transition: 0.5s;
+}
+.navbar > ul li a:hover::before
+{
+    width: 100%;
+}
+
+/*Name animation*/
+.animate-charcter
+{
+
+    -webkit-text-fill-color: ghostwhite;
+    font-size: 30px;
+}
+
+/*Info Box*/
+#info-box {
+    position: absolute;
+    bottom: 2em;
+    right: 2em;
+}
+
+#info-box ul {
+    list-style: none;
+}
+#info-box a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 0.5em 0;
+    transition: all 0.1s ease-out;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+#info-box a:hover {
+    color: rgba(255,255,255,0.5);
 }
