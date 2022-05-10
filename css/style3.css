@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: contents;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: rgba(247, 247, 247, 0.849);
+    align-items: center;
+}
+.background{
+    background-image: url(../poze/background14.jpg);
+    background-repeat: no-repeat ;
+    background-size: auto;
+    background-position: center;
+    background-size: cover;
+    
+
+
+}
+.logo{
+    color: azure;
+    padding: 0px 44px 0px;
+}
+
+.info{
+    text-align: center;
+    padding: 170px;
+    padding-top: 67.5px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    
+}
+
+menu {
+    color: rgb(231, 226, 226);
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(175, 243, 255)
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color:rgba(62, 109, 78, 0.849) ;
+}
+
+.link{
+    text-shadow: 2px 2px 5px rgb(99, 149, 255) ;
+}
+
+.titlu{
+    text-shadow: 2px 2px 5px rgb(255, 255, 255) ;
+}
+
+
+
+.container {
+    font-family: arial;
+    font-size: 14px;
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    outline: dashed 1px black;
+    background-color: aliceblue;
+    font-style: normal;
+    
+  }
